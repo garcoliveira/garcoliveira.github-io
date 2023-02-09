@@ -3,29 +3,96 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Página</title>
+	<title>Jéssica e Neto - Cardápio</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
 	<style type="text/css">
+		* {
+			box-sizing: border-box;
+		}
 		body {
 			margin: 0;
+			font-family: 'Itim', sans-serif;
 		}
 		.fundo-imagem {
 			background: url('img/fundo.jpg') center top no-repeat fixed;
-			background-size: 100%;
+			background-size: auto 100%;
 			display: flex;
-			height: 100vh;
+			min-height: 100vh;
 		}
 		.fundo-marca-dagua {
-			background-color: rgba(255,255,255,0.8);
+			background-color: rgba(255,255,255,0.75);
 			display: flex;
-			height: 100vh;
+			min-height: 100vh;
 			width: 100%;
+		}
+		.conteudo {
+			box-shadow: 0px 0px 80px inset rgba(128, 66, 0, 0.5);
+			border-radius: 50px;
+			font-size: 18px;
+			margin: 80px auto;
+			padding: 40px 150px;
+			width: 80%;
+		}
+		h1 {
+			font-size: 28px;
+			font-weight: 400;
+			text-align: center;
+		}
+		p {
+			line-height: 20px;
+			margin-bottom: 2em;
+		}
+		@media (orientation: landscape) {
+			.fundo-imagem {
+				background-size: 100%;
+			}
 		}
 	</style>
 </head>
 <body>
 
 <div class="fundo-imagem">
-	<div class="fundo-marca-dagua"></div>
+	<div class="fundo-marca-dagua">
+
+		<div class="conteudo">
+			<h1>Cardápio Jess e Neto</h1>
+
+			<p>Ninho Buffet</p>
+ 
+			<p>Mesa de frios completa</p>
+
+			<p>Finger<br>
+			Bobo de camarão<br>
+			Escondidinho de carne seca</p>
+
+			<p>Jantar<br>
+			Arroz branco<br>
+			Risoto de alho poro com Baccon<br>
+			Massa rondelli quatro queijos com molho branco<br>
+			File mignon ao molho madeira<br>
+			Sobrecoxa recheada c/ creme de cebola<br>
+			Salada tropical c/ manga, rúcula<br>
+			Salada de acelga com creme e croutons, batata palha, frango</p>
+
+			<p>Bolo<br>
+			Doce leite c/ nozes</p>
+
+			<p>Refrigerante - Guaraná e Coca-cola<br>
+			Água</p>
+
+			<p>Chope Heilkel</p>
+
+			<p>Lanchinho da madrugada<br>
+			Pizzas</p>
+
+			<p>Mesa Café na entrada</p>
+
+			<p>Água saborizada mesa na entrada</p>
+		</div>
+
+	</div>
 </div>
 
 </body>
